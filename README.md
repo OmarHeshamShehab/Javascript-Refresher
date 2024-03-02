@@ -1,1 +1,1 @@
-# Javascript-Refresher
+# Javascript-Refresher for basic concepts 
