@@ -1,4 +1,4 @@
-let a = 'omar';
-let b = 'hesham';
+let a = 'Omar';
+let b = 'Hesham';
 
 console.log(`${a} ${b}`)
