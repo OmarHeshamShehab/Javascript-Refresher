@@ -77,3 +77,26 @@ function getInfo(a, b, ...c) {
 getInfo(1, 2, 3, 4, 5, 6, 78);
 
 // map, filter,find,some,every,includes,indexOf, findIndex
+
+const personsArray = [
+  {
+    name: "Person 01",
+    age: 45,
+    country: "USA",
+  },
+  {
+    name: "Person 1",
+    age: 30,
+    country: "USA",
+  },
+  {
+    name: "Person 2",
+    age: 40,
+    country: "RUSSIA",
+  },
+  {
+    name: "Person 3",
+    age: 50,
+    country: "INDIA",
+  },
+];
