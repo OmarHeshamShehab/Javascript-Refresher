@@ -99,6 +99,11 @@ const personsArray = [
     age: 50,
     country: "Egypt",
   },
+  {
+    name: "Person 05",
+    age: 59,
+    country: "USA",
+  },
 ];
 
 let getAllNames = personsArray.map((personObj, index) => {
@@ -107,9 +112,14 @@ let getAllNames = personsArray.map((personObj, index) => {
 });
 console.log(getAllNames);
 
-// 2- filter
+// 2- find will return first element found
 
-// 3- find
+let getAllCountries = personsArray.find((personobj2, index) => {
+  return personobj2.country === "USA";
+});
+
+console.log(getAllCountries);
+// 3- filter
 
 // 4- some
 
