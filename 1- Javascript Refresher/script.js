@@ -76,8 +76,8 @@ function getInfo(a, b, ...c) {
 
 getInfo(1, 2, 3, 4, 5, 6, 78);
 
-// map, filter,find,some,every,includes,indexOf, findIndex
-
+// ES6 array methods
+// 1- map
 const personsArray = [
   {
     name: "Person 01",
@@ -85,18 +85,38 @@ const personsArray = [
     country: "USA",
   },
   {
-    name: "Person 1",
+    name: "Person 02",
     age: 30,
-    country: "USA",
+    country: "France",
   },
   {
-    name: "Person 2",
+    name: "Person 03",
     age: 40,
     country: "RUSSIA",
   },
   {
-    name: "Person 3",
+    name: "Person 04",
     age: 50,
-    country: "INDIA",
+    country: "Egypt",
   },
 ];
+
+let getAllNames = personsArray.map((personObj, index) => {
+  console.log(personObj.country, index);
+  return `index is ${index} the name is ${personObj.name} age is ${personObj.age} and is located in ${personObj.country}`;
+});
+console.log(getAllNames);
+
+// 2- filter
+
+// 3- find
+
+// 4- some
+
+// 5- every
+
+// 6- includes
+
+// 7- indexOf
+
+// 8- findIndex
