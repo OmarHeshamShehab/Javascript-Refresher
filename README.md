@@ -13,7 +13,6 @@ This repository contains a refresher on modern JavaScript (ES6+) concepts, tailo
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
@@ -90,10 +89,6 @@ Contributions are welcome! If you'd like to add more examples or expand the proj
     ```
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
-Special thanks to the creator of the video tutorial and to the developers of JavaScript and React libraries used in modern web development.
+Special thanks to the creator of the video tutorial 
